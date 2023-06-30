@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "turro-crm-api"
+version = "0.1.0"
+description = ""
+authors = ["Yanela Rodriguez <yanelarr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "turro_crm_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.98.0"
+uvicorn = "^0.22.0"
+alembic = "^1.11.1"
+psycopg2-binary = "^2.9.6"
+itsdangerous = "^2.1.2"
+passlib = "^1.7.4"
+FastAPI-SQLAlchemy = "^0.2.1"
+python-dotenv = "^1.0.0"
+PyJWT = "^2.7.0"
+pyI18n = "^1.0.1"
+pyi18n-v2 = "^1.2.1"
+autopep8 = "^2.0.2"
+SQLAlchemy = "1.4.41"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
