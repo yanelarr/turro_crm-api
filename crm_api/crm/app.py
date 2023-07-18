@@ -56,6 +56,8 @@ from crm.routes.offers.offer import offer_route
 
 from crm.routes.resources.province import province_route
 from crm.routes.resources.municipality import municipality_route
+from crm.routes.stock.classification import classification_route
+from crm.routes.stock.mark import mark_route
 
 @app.get("/docs", include_in_schema=False)
 async def custom_swagger_ui_html():
@@ -100,3 +102,5 @@ app.include_router(currency_route, prefix="/api")
 
 app.include_router(province_route, prefix="/api")
 app.include_router(municipality_route, prefix="/api")
+app.include_router(classification_route, prefix="/api")
+app.include_router(mark_route, prefix="/api")

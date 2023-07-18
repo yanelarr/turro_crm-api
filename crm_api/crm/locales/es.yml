@@ -18,3 +18,25 @@ es:
     new_password: "Error en el nuevo password, "
     change_password_error: "Error cambiando password en BD"
     wrong_password: "Contraseña incorrecta"    
+  commun:
+    invalid_param: "Criterios de búsqueda incorrectos"
+  province:
+    error_new_province: 'Error creando la nueva provincia'
+    not_found: 'Id de Provincia No existe'
+    imposible_delete: 'Error borrando la provincia'
+    already_exist: 'Provincia ya existe registrada'
+  municipality:
+    error_new_municipality: 'Error creando el nuevo municipio'
+    not_found: 'Id de Municipio No existe'
+    imposible_delete: 'Error borrando el municipio'
+    already_exist: 'Municipio ya existe registrado'
+  classification:
+    error_new_classification: 'Error creando la nueva clasidficacion de producto'
+    not_found: 'Id de Clasificacion No existe'
+    imposible_delete: 'Error borrando la clasificacion'
+    already_exist: 'Clasificacion ya existe registrada'
+  mark:
+    error_new_mark: 'Error creando la nueva marca de producto'
+    not_found: 'Id de Marca No existe'
+    imposible_delete: 'Error borrando la marca'
+    already_exist: 'marca de producto ya existe registrada'
